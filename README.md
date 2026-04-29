@@ -44,5 +44,4 @@ This uses `attachInterrupt()` for instant response without polling in `loop()`.
 The full Arduino sketch is in `alarm_system.ino`. 
 
 Key concept: Hardware interrupt
-```cpp
-attachInterrupt(digitalPinToInterrupt(2), buttonPressed, RISING);
+
