@@ -3,7 +3,7 @@
 An interrupt-driven alarm system that triggers a buzzer and red LED when a pushbutton is pressed, simulating an urgent event.
 
 ### **Demo**
-![Circuit Diagram](alarm_system.png)
+![Working demo](demo.gif)
 
 ### **How It Works**
 By default, the green LED stays ON indicating "Safe/Normal" state. 
@@ -41,7 +41,10 @@ This uses `attachInterrupt()` for instant response without polling in `loop()`.
 **Note**: Pushbutton uses external interrupt on D2. Use a 10kΩ pull-down resistor.
 
 ### **Code**
-The full Arduino sketch is in `alarm_system.ino`. 
+The full Arduino sketch is in `automated_alarm_system1.ino`. 
 
 Key concept: Hardware interrupt
+
+### **Circuit Diagram**
+![Circuit Diagram](alarm_system.png)
 
